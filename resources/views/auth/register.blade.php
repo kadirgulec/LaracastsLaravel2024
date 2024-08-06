@@ -15,7 +15,7 @@
               <x-form-error name="first_name"/>
             </div>
           </x-form-field>
-          
+
           <x-form-field>
             <x-form-label for="last_name">Last Name</x-form-label>
             <div class="mt-2">
@@ -43,18 +43,18 @@
           <x-form-field>
             <x-form-label for="password_confirmation">Confirm Password</x-form-label>
             <div class="mt-2">
-              <x-form-input required type="password_confirmation" name="password_confirmation" id="password_confirmation" type="password_confirmation"></x-form-input>
+              <x-form-input required type="password_confirmation" name="password_confirmation" id="password_confirmation" type="password"></x-form-input>
               <x-form-error name="password_confirmation"/>
             </div>
           </x-form-field>
         </div>
       </div>
     </div>
-  
+
     <div class="mt-6 flex items-center justify-end gap-x-6">
       <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Cancel</a>
       <x-form-button>Register</x-form-button>
     </div>
   </form>
-  
+
 </x-layout>

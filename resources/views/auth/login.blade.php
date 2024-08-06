@@ -12,7 +12,7 @@
           <x-form-field>
             <x-form-label for="email">Email</x-form-label>
             <div class="mt-2">
-              <x-form-input required type="text" name="email" id="email" type="email"></x-form-input>
+              <x-form-input required type="text" name="email" id="email" :value="old('email')" type="email"></x-form-input>
               <x-form-error name="email"/>
             </div>
           </x-form-field>
@@ -27,11 +27,11 @@
         </div>
       </div>
     </div>
-  
+
     <div class="mt-6 flex items-center justify-end gap-x-6">
       <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Cancel</a>
       <x-form-button>Login</x-form-button>
     </div>
   </form>
-  
+
 </x-layout>
