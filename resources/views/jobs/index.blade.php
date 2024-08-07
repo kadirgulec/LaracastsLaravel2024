@@ -10,9 +10,9 @@
                     {{$job->employer->name}}
                 </div>
                 <div>
-                    <strong>{{$job['title']}}: </strong>Pays {{$job['salary']}} per Year.
+                    <strong class="text-main">{{$job['title']}}: </strong>Pays {{$job['salary']}} per Year.
                 </div>
-            </a>  
+            </a>
         @endforeach
         {{$jobs->links()}}
     </div>
